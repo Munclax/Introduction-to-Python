@@ -10,3 +10,6 @@ print(type(name)) # type() prints the data type of a variable
 print("Variable type of age", type(age))
 age_str=str(age) # this converts the integer variable 'age' into a string variable; this is known as type casting
 print("Variable type of age after type casting", type(age_str)) 
+result= age>=18 # this variable stores a boolean value; it returns true if the condition is met, otherwise it returns false
+print("Is age greater than or equal to 18?", result)
+print(type(result)) # type() prints the data type of a variable
