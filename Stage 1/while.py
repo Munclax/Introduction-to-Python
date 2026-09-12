@@ -1,5 +1,5 @@
 print("Welcome to the guessing game!")
-guest_input=int(input("Enter your guess"))
+guest_input=int(input("Enter your guess:"))
 num=8
 while (guest_input!=8):
   if(guest_input<8):

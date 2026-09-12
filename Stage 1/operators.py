@@ -22,5 +22,5 @@ print("exponent:",a**b) # exponent
 # less than - '<'  
 # greater than or equal to - '>='
 # less than or equal to - '<='
-print("equal to:",a==b) # equal to
-print("not equal to:",a!=b) # not equal to
+print("equal to:",a==b) # equal to returns true if the values are equal, otherwise it returns false
+print("not equal to:",a!=b) # not equal to returns true if the values are not equal, otherwise it returns false
