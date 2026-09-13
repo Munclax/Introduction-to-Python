@@ -1,4 +1,5 @@
 #write a program to count the number of times 2 appeared in a list of numbers
+#Solution:
 numbers=[2,3,45,2,35,20,2]
 length=len(numbers)
 count=0
