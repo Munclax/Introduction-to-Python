@@ -1,3 +1,4 @@
+#write a program to find the largest and smallest number in a list of numbers, count the number of even and odd numbers, and calculate the total sum of the numbers in the list.
 numbers=[11,21,34,52,7,19,41]
 largest=0
 smallest=100
