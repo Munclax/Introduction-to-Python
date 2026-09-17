@@ -1,4 +1,4 @@
-#write a python program to print all even numbers in a list
+#write a python program to print all even numbers in a list and also count the total number of even numbers.
 numbers=[20,30,12,35,76,54,81,11,92]
 count=0
 for i in numbers:
