@@ -1,4 +1,4 @@
-
+#Program to store student marksheet info in a dictionary and perform various operations on it.
 students = {"Prem": {"age": 21,"course": "CSE","marks":99}, "Rahul": {"age": 20,"course": "ECE","marks": 78}, "Ayan": {"age": 21,"course": "CSE","marks": 92}} 
 students.update({"Rahul": {"age": 20,"course": "ECE","marks": 86}})
 students.update({"Priya": {"age": 22,"course": "CSE","marks": 82}})
@@ -26,7 +26,7 @@ for student,details in students.items():
 if count>0:
     avg=total/count
 if check==True:
-  print(user,"'s marksheet info does exist in the database.'")
+  print(user,"'s marksheet info does exist in the database.")
 else:
    print(user,"'s marksheet info doesNOT exist in the database.'")
 print("Average marks of students:",avg)
