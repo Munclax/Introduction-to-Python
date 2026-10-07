@@ -284,3 +284,100 @@ condition
 loop
   ↓
 output
+# Stage 2 — Collections and Functions
+
+Stage 2 built on the programming fundamentals from Stage 1 and introduced Python's main collection types along with functions and more advanced ways of passing data to functions.
+
+The focus of this stage was to move beyond simple programs and begin writing code that could organize, manipulate, and reuse data more effectively.
+
+This stage also introduced some of the concepts that make Python considerably more flexible, such as nested dictionaries, multiple return values, default parameters, variable-length arguments, and local/global scope.
+
+---
+
+## 1. Lists
+
+Lists were the first major collection type explored in Stage 2.
+
+The focus was on understanding how multiple values can be stored and manipulated within a single variable.
+
+Topics practiced included:
+
+- Creating lists
+- Accessing elements using indexes
+- Modifying elements
+- Adding elements
+- Removing elements
+- List operations
+- Taking list-like input from the user
+- Iterating through lists
+- Processing list data using loops
+- List slicing
+
+The list exercises also involved combining lists with concepts learned in Stage 1, particularly `for` loops and conditional statements.
+
+**Files:**
+
+- `lists.py`
+- `add_lists.py`
+- `remove_lists.py`
+- `input_lists.py`
+- `list_slicing.py`
+
+---
+
+## 2. Tuples
+
+Tuples were introduced as another collection type with similarities to lists but an important difference: tuples are immutable.
+
+The exercises focused on:
+
+- Creating tuples
+- Accessing tuple elements
+- Indexing
+- Iterating through tuples
+- Understanding immutability
+- Comparing tuples with lists
+
+**File:**
+
+- `tuples.py`
+
+---
+
+## 3. Sets
+
+Sets were introduced as collections designed to store unique values.
+
+Topics practiced included:
+
+- Creating sets
+- Adding elements
+- Removing elements
+- Understanding duplicate removal
+- Iterating through sets
+- Set operations
+- Comparing multiple sets
+
+Set operations such as intersection and union were practiced to understand how sets can be used to identify common values or combine unique values.
+
+**Files:**
+
+- `sets.py`
+- `set_operations.py`
+
+---
+
+## 4. Dictionaries
+
+Dictionaries introduced the concept of storing data using a **key-value relationship**.
+
+Instead of accessing information through numerical indexes, dictionaries allow values to be accessed through meaningful keys.
+
+For example:
+
+```python
+student = {
+    "name": "Prem",
+    "age": 21,
+    "course": "Computer Science"
+}
