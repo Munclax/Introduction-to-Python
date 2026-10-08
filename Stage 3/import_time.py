@@ -1,0 +1,5 @@
+import time #import keyword is used to import pre defined modules in python. Here we are importing time module which is used to work with time related tasks.
+print(time.time()) #time.time() function returns the current time in seconds since the epoch (January 1, 1970, 00:00:00 UTC). The output will be a floating-point number representing the number of seconds.
+print(time.localtime()) #time.localtime() function returns the current local time as a struct_time object. The output will be a named tuple containing various time attributes such as year, month, day, hour, minute, second, etc.
+print(dir(time)) #dir() function returns a list of all the attributes and methods of the time module. The output will be a list of strings representing the names of the attributes and methods available in the time module.
+print(time.process_time()) #time.process_time() function returns the current process time in seconds. The output will be a floating-point number representing the amount of CPU time used by the current process since it started.
