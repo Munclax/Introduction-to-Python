@@ -1,0 +1,11 @@
+import time
+loc=time.localtime()
+print("Current Date & Time".center(50,"-"))
+day=time.strftime("%A",loc)
+dat=time.strftime("%d:%m:%Y",loc)
+tim=time.strftime("%H:%M:%S",loc)
+print("Date:",day,",",dat)
+print("Time:",tim)
+print("Day:",day)
+print("Month:",time.strftime("%B",loc))
+print("Year:",time.strftime("%Y",loc))
