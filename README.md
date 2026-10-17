@@ -381,3 +381,51 @@ student = {
     "age": 21,
     "course": "Computer Science"
 }
+### Stage 3: Modules and GUI Development
+
+Stage 3 focuses on exploring Python modules and taking the first steps into Graphical User Interface (GUI) development using Tkinter.
+
+This stage helped me understand how Python's built-in modules can be imported and used, and how to create simple desktop interfaces with interactive elements.
+
+#### Topics Covered
+
+- **Python Modules and Imports**
+  - Understanding the `import` statement.
+  - Exploring modules such as `time`.
+  - Using imported functionality in Python programs.
+
+- **Introduction to Tkinter**
+  - Creating a basic Tkinter application window.
+  - Understanding the basic structure of a GUI program.
+  - Running a simple desktop application.
+
+- **Tkinter Widgets**
+  - Working with the `Entry` widget to accept user input.
+  - Using the `Button` widget to create interactive buttons.
+  - Exploring widget configuration using the `config()` method.
+
+- **Basic GUI Layout**
+  - Organizing widgets inside a window.
+  - Experimenting with layout options to improve the appearance of a GUI.
+
+#### Files and Exercises
+
+| File | Description |
+|---|---|
+| `import_time.py` | Exploring Python imports and the `time` module. |
+| `tkinter_intro.py` | Creating a basic GUI window with Tkinter. |
+| `tkinter_Entry.py` | Accepting user input through a Tkinter Entry widget. |
+| `tkinter_button.py` | Creating buttons and exploring button interactions. |
+| `tkinter_config.py` | Experimenting with widget configuration and updating GUI elements. |
+
+#### What I Learned
+
+- How imports allow Python programs to use functionality provided by modules.
+- How to create a basic desktop application using Tkinter.
+- How GUI widgets accept input and respond to user interaction.
+- How to configure widgets and organize elements within a window.
+- The importance of experimenting, debugging, and understanding code rather than simply copying it.
+
+#### Next Steps
+
+With the fundamentals and initial GUI concepts covered, the next goal is to apply these skills in small practical projects, starting with a Pomodoro timer built using Python and Tkinter.
