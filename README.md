@@ -272,7 +272,6 @@ The most important part of this stage was not simply learning the syntax of each
 
 For example, a simple program could combine:
 
-```text
 input
   ↓
 type conversion
@@ -375,7 +374,7 @@ Instead of accessing information through numerical indexes, dictionaries allow v
 
 For example:
 
-```python
+
 student = {
     "name": "Prem",
     "age": 21,
